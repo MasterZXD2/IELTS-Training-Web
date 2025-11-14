@@ -1,0 +1,972 @@
+{
+  "words": [    
+    {
+        "word": "ephemeral",
+        "ipa": "/ɪˈfɛmərəl/",
+        "pos": "adjective",
+        "thai": "ชั่วคราว",
+        "usage": "Lasting for a very short time.",
+        "synonyms": ["transient", "fleeting", "temporary"]
+    },
+    {
+        "word": "juxtapose",
+        "ipa": "/ˈdʒʌkstəpəʊz/",
+        "pos": "verb",
+        "thai": "วางเคียงกัน",
+        "usage": "To place or deal with close together for contrasting effect.",
+        "synonyms": ["place side by side", "compare", "contrast"]
+    },
+    {
+        "word": "dichotomy",
+        "ipa": "/daɪˈkɒtəmi/",
+        "pos": "noun",
+        "thai": "ความแตกแยก",
+        "usage": "A division or contrast between two things that are represented as being entirely different.",
+        "synonyms": ["division", "contrast", "separation"]
+    },
+    {
+        "word": "catalyst",
+        "ipa": "/ˈkætəlɪst/",
+        "pos": "noun",
+        "thai": "ตัวเร่งปฏิกิริยา",
+        "usage": "A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+        "synonyms": ["accelerator", "stimulus", "impetus"]
+    },
+    {
+        "word": "anomaly",
+        "ipa": "/əˈnɒməli/",
+        "pos": "noun",
+        "thai": "ความผิดปกติ",
+        "usage": "Something that deviates from what is standard, normal, or expected.",
+        "synonyms": ["irregularity", "abnormality", "deviation"]
+    },
+    {
+      "word": "analyze",
+      "ipa": "/ˈænəlaɪz/",
+      "pos": "verb",
+      "thai": "วิเคราะห์",
+      "usage": "Used when examining something carefully.",
+      "synonyms": ["examine", "evaluate", "inspect"]
+    },
+    {
+      "word": "benefit",
+      "ipa": "/ˈbɛnɪfɪt/",
+      "pos": "noun",
+      "thai": "ประโยชน์",
+      "usage": "A helpful or good effect.",
+      "synonyms": ["advantage", "gain", "profit"]
+    },
+    {
+      "word": "approach",
+      "ipa": "/əpɹˈoʊtʃ/",
+      "pos": "noun",
+      "thai": "วิธีการ",
+      "usage": "A way of dealing with something.",
+      "synonyms": ["method", "strategy", "technique"]
+    },
+    {
+      "word": "assess",
+      "ipa": "/əsˈɛs/",
+      "pos": "verb",
+      "thai": "ประเมิน",
+      "usage": "To evaluate or judge.",
+      "synonyms": ["evaluate", "judge", "appraise"]
+    },
+    {
+      "word": "assume",
+      "ipa": "/əsˈum/",
+      "pos": "verb",
+      "thai": "สมมติ",
+      "usage": "To accept something as true without proof.",
+      "synonyms": ["suppose", "presume", "guess"]
+    },
+    {
+      "word": "available",
+      "ipa": "/əvˈeɪləbəl/",
+      "pos": "adjective",
+      "thai": "ใช้ได้",
+      "usage": "Able to be used or obtained.",
+      "synonyms": ["accessible", "obtainable", "ready"]
+    },
+    {
+      "word": "concept",
+      "ipa": "/kˈɑnsɛpt/",
+      "pos": "noun",
+      "thai": "แนวคิด",
+      "usage": "An abstract idea or general notion.",
+      "synonyms": ["idea", "notion", "theory"]
+    },
+    {
+      "word": "context",
+      "ipa": "/ˈkɑnˌtɛkst/",
+      "pos": "noun",
+      "thai": "บริบท",
+      "usage": "The situation in which something happens.",
+      "synonyms": ["situation", "setting", "background"]
+    },
+    {
+      "word": "create",
+      "ipa": "/kriˈeɪt/",
+      "pos": "verb",
+      "thai": "สร้าง",
+      "usage": "To make something new.",
+      "synonyms": ["produce", "generate", "make"]
+    },
+    {
+      "word": "data",
+      "ipa": "/ˈdeɪtə/",
+      "pos": "noun",
+      "thai": "ข้อมูล",
+      "usage": "Facts or information collected for analysis.",
+      "synonyms": ["information", "facts", "figures"]
+    },
+    {
+      "word": "derive",
+      "ipa": "/dɪˈɹaɪv/",
+      "pos": "verb",
+      "thai": "ได้จาก",
+      "usage": "To obtain from a source.",
+      "synonyms": ["obtain", "extract", "deduce"]
+    },
+    {
+      "word": "establish",
+      "ipa": "/ɪˈstæblɪʃ/",
+      "pos": "verb",
+      "thai": "ก่อตั้ง",
+      "usage": "To set up or found something.",
+      "synonyms": ["found", "set up", "institute"]
+    },
+    {
+      "word": "estimate",
+      "ipa": "/ˈɛstəˌmeɪt/",
+      "pos": "verb",
+      "thai": "ประมาณ",
+      "usage": "To make an approximate judgment.",
+      "synonyms": ["approximate", "guess", "evaluate"]
+    },
+    {
+      "word": "evidence",
+      "ipa": "/ˈɛvədəns/",
+      "pos": "noun",
+      "thai": "หลักฐาน",
+      "usage": "Something that shows proof.",
+      "synonyms": ["proof", "indication", "confirmation"]
+    },
+    {
+      "word": "export",
+      "ipa": "/ˈɛkspɔrt/",
+      "pos": "verb",
+      "thai": "ส่งออก",
+      "usage": "To send goods to another country.",
+      "synonyms": ["ship", "send out", "sell abroad"]
+    },
+    {
+      "word": "factor",
+      "ipa": "/ˈfæktɚ/",
+      "pos": "noun",
+      "thai": "ปัจจัย",
+      "usage": "An element that contributes to a result.",
+      "synonyms": ["element", "component", "aspect"]
+    },
+    {
+      "word": "financial",
+      "ipa": "/fəˈnænʃəl/",
+      "pos": "adjective",
+      "thai": "ทางการเงิน",
+      "usage": "Relating to money or finance.",
+      "synonyms": ["monetary", "fiscal", "economic"]
+    },
+    {
+      "word": "formula",
+      "ipa": "/ˈfɔɹmjələ/",
+      "pos": "noun",
+      "thai": "สูตร",
+      "usage": "A method or set of rules.",
+      "synonyms": ["recipe", "equation", "method"]
+    },
+    {
+      "word": "function",
+      "ipa": "/ˈfʌŋkʃən/",
+      "pos": "noun",
+      "thai": "หน้าที่",
+      "usage": "The purpose or job of something.",
+      "synonyms": ["purpose", "role", "operation"]
+    },
+    {
+      "word": "identify",
+      "ipa": "/aɪˈdɛn.t̬ə.faɪ/",
+      "pos": "verb",
+      "thai": "ระบุ",
+      "usage": "To recognize or name someone or something.",
+      "synonyms": ["recognize", "determine", "pinpoint"]
+    },
+    {
+      "word": "income",
+      "ipa": "/ˈɪnkʌm/",
+      "pos": "noun",
+      "thai": "รายได้",
+      "usage": "Money received from work or investments.",
+      "synonyms": ["earnings", "revenue", "salary"]
+    },
+    {
+      "word": "indicate",
+      "ipa": "/ˈɪndəˌkeɪt/",
+      "pos": "verb",
+      "thai": "ชี้ให้เห็น",
+      "usage": "To show or point out.",
+      "synonyms": ["show", "demonstrate", "suggest"]
+    },
+    {
+      "word": "interpretation",
+      "ipa": "/ɪnˌtɜrprəˈteɪʃən/",
+      "pos": "noun",
+      "thai": "การตีความ",
+      "usage": "The action of explaining the meaning of something.",
+      "synonyms": ["explanation", "understanding", "analysis"]
+    },
+    {
+      "word": "involve",
+      "ipa": "/ɪnˈvɑlv/",
+      "pos": "verb",
+      "thai": "เกี่ยวข้อง",
+      "usage": "To include or affect someone or something.",
+      "synonyms": ["include", "entail", "engage"]
+    },
+    {
+      "word": "issue",
+      "ipa": "/ˈɪʃu/",
+      "pos": "noun",
+      "thai": "ประเด็น",
+      "usage": "An important topic or problem.",
+      "synonyms": ["matter", "topic", "problem"]
+    },
+    {
+      "word": "legal",
+      "ipa": "/ˈliɡəl/",
+      "pos": "adjective",
+      "thai": "ถูกกฎหมาย",
+      "usage": "Allowed by law.",
+      "synonyms": ["lawful", "legitimate", "allowed"]
+    },
+    {
+      "word": "legislation",
+      "ipa": "/ˌlɛdʒəˈsleɪʃən/",
+      "pos": "noun",
+      "thai": "กฎหมาย",
+      "usage": "Laws considered collectively.",
+      "synonyms": ["laws", "statutes", "regulations"]
+    },
+    {
+      "word": "major",
+      "ipa": "/ˈmeɪdʒər/",
+      "pos": "adjective",
+      "thai": "สำคัญ",
+      "usage": "Very important or significant.",
+      "synonyms": ["main", "chief", "significant"]
+    },
+    {
+      "word": "method",
+      "ipa": "/ˈmɛθəd/",
+      "pos": "noun",
+      "thai": "วิธี",
+      "usage": "A planned way of doing something.",
+      "synonyms": ["technique", "procedure", "strategy"]
+    },
+    {
+      "word": "occur",
+      "ipa": "/əˈkɜr/",
+      "pos": "verb",
+      "thai": "เกิดขึ้น",
+      "usage": "To happen or take place.",
+      "synonyms": ["happen", "take place", "arise"]
+    },
+    {
+      "word": "percentage",
+      "ipa": "/pərˈsɛntɪdʒ/",
+      "pos": "noun",
+      "thai": "เปอร์เซ็นต์",
+      "usage": "A part of a whole expressed as a fraction of 100.",
+      "synonyms": ["portion", "fraction", "ratio"]
+    },
+    {
+      "word": "policy",
+      "ipa": "/ˈpɒl.ə.si/",
+      "pos": "noun",
+      "thai": "นโยบาย",
+      "usage": "A course of action adopted by an organization.",
+      "synonyms": ["strategy", "plan", "guideline"]
+    },
+    {
+      "word": "principle",
+      "ipa": "/ˈprɪnsəpəl/",
+      "pos": "noun",
+      "thai": "หลักการ",
+      "usage": "A fundamental truth or law.",
+      "synonyms": ["rule", "belief", "tenet"]
+    },
+    {
+      "word": "procedure",
+      "ipa": "/prəˈsiːdʒər/",
+      "pos": "noun",
+      "thai": "ขั้นตอน",
+      "usage": "A series of actions to achieve a result.",
+      "synonyms": ["process", "method", "technique"]
+    },
+    {
+      "word": "process",
+      "ipa": "/ˈprɑːsɛs/",
+      "pos": "noun",
+      "thai": "กระบวนการ",
+      "usage": "A series of actions to achieve a result.",
+      "synonyms": ["procedure", "operation", "method"]
+    },
+    {
+      "word": "require",
+      "ipa": "/rɪˈkwaɪər/",
+      "pos": "verb",
+      "thai": "ต้องการ",
+      "usage": "To need something.",
+      "synonyms": ["need", "demand", "necessitate"]
+    },
+    {
+      "word": "research",
+      "ipa": "/ˈrisɜrtʃ/",
+      "pos": "noun",
+      "thai": "การวิจัย",
+      "usage": "A careful study to discover new facts.",
+      "synonyms": ["study", "investigation", "inquiry"]
+    },
+    {
+      "word": "response",
+      "ipa": "/rɪˈspɒns/",
+      "pos": "noun",
+      "thai": "การตอบสนอง",
+      "usage": "An answer or reaction to something.",
+      "synonyms": ["reply", "answer", "reaction"]
+    },
+    {
+      "word": "role",
+      "ipa": "/roʊl/",
+      "pos": "noun",
+      "thai": "บทบาท",
+      "usage": "The function or part played by someone or something.",
+      "synonyms": ["function", "part", "position"]
+    },
+    {
+      "word": "sector",
+      "ipa": "/ˈsɛktər/",
+      "pos": "noun",
+      "thai": "ภาค",
+      "usage": "A distinct part or area of something.",
+      "synonyms": ["industry", "field", "area"]
+    },
+    {
+      "word": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adjective",
+      "thai": "สำคัญ",
+      "usage": "Important or meaningful.",
+      "synonyms": ["important", "notable", "considerable"]
+    },
+    {
+      "word": "similar",
+      "ipa": "/ˈsɪmələr/",
+      "pos": "adjective",
+      "thai": "คล้ายคลึง",
+      "usage": "Almost the same but not exactly.",
+      "synonyms": ["alike", "comparable", "analogous"]
+    },
+    {
+      "word": "specific",
+      "ipa": "/spəˈsɪfɪk/",
+      "pos": "adjective",
+      "thai": "เฉพาะเจาะจง",
+      "usage": "Clearly defined or identified.",
+      "synonyms": ["particular", "precise", "definite"]
+    },
+    {
+      "word": "structure",
+      "ipa": "/ˈstrʌktʃər/",
+      "pos": "noun",
+      "thai": "โครงสร้าง",
+      "usage": "The way in which parts are arranged or organized.",
+      "synonyms": ["framework", "organization", "arrangement"]
+    },
+    {
+      "word": "theory",
+      "ipa": "/ˈθiəri/",
+      "pos": "noun",
+      "thai": "ทฤษฎี",
+      "usage": "A set of principles to explain phenomena.",
+      "synonyms": ["hypothesis", "idea", "concept"]
+    },
+    {
+      "word": "variable",
+      "ipa": "/ˈvɛəriəbəl/",
+      "pos": "noun",
+      "thai": "ตัวแปร",
+      "usage": "Something that can change or vary.",
+      "synonyms": ["changeable", "factor", "element"]
+    },
+    {
+      "word": "assist",
+      "ipa": "/əˈsɪst/",
+      "pos": "verb",
+      "thai": "ช่วยเหลือ",
+      "usage": "To help someone.",
+      "synonyms": ["help", "aid", "support"]
+    },
+    {
+      "word": "harm",
+      "ipa": "/hɑrm/",
+      "pos": "verb",
+      "thai": "ทำร้าย",
+      "usage": "To cause injury or damage.",
+      "synonyms": ["injure", "damage", "hurt"]
+    },
+    {
+      "word": "believe",
+      "ipa": "/bɪˈliv/",
+      "pos": "verb",
+      "thai": "เชื่อ",
+      "usage": "To accept something as true.",
+      "synonyms": ["trust", "accept", "convinced"]
+    },
+    {
+      "word": "understand",
+      "ipa": "/ˌʌndərˈstænd/",
+      "pos": "verb",
+      "thai": "เข้าใจ",
+      "usage": "To grasp the meaning of something.",
+      "synonyms": ["comprehend", "grasp", "perceive"]
+    },
+    {
+      "word": "remember",
+      "ipa": "/rɪˈmɛmbər/",
+      "pos": "verb",
+      "thai": "จำ",
+      "usage": "To keep something in mind.",
+      "synonyms": ["recall", "recollect", "retain"]
+    },
+    {
+      "word": "forget",
+      "ipa": "/fərˈɡɛt/",
+      "pos": "verb",
+      "thai": "ลืม",
+      "usage": "To fail to remember something.",
+      "synonyms": ["overlook", "neglect", "omit"]
+    },
+    {
+      "word": "possess",
+      "ipa": "/pəˈzɛs/",
+      "pos": "verb",
+      "thai": "เป็นเจ้าของ",
+      "usage": "To have or own something.",
+      "synonyms": ["own", "hold", "have"]
+    },
+    {
+      "word": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "pos": "verb",
+      "thai": "เพลิดเพลิน",
+      "usage": "To take pleasure in something.",
+      "synonyms": ["like", "love", "appreciate"]
+    },
+    {
+      "word": "detest",
+      "ipa": "/dɪˈtɛst/",
+      "pos": "verb",
+      "thai": "เกลียด",
+      "usage": "To feel intense dislike for something.",
+      "synonyms": ["hate", "loathe", "despise"]
+    },
+    {
+      "word": "like",
+      "ipa": "/laɪk/",
+      "pos": "verb",
+      "thai": "ชอบ",
+      "usage": "To find something pleasant or enjoyable.",
+      "synonyms": ["enjoy", "prefer", "admire"]
+    },
+    {
+      "word": "dislike",
+      "ipa": "/ˌdɪsˈlaɪk/",
+      "pos": "verb",
+      "thai": "ไม่ชอบ",
+      "usage": "To not like something.",
+      "synonyms": ["hate", "despise", "loathe"]
+    },
+    {
+      "word": "solution",
+      "ipa": "/səˈluʃən/",
+      "pos": "noun",
+      "thai": "วิธีแก้ปัญหา",
+      "usage": "An answer to a problem.",
+      "synonyms": ["answer", "resolution", "remedy"]
+    },
+    {
+      "word": "advocate",
+      "ipa": "/ˈæd.və.keɪt/",
+      "pos": "verb",
+      "thai": "สนับสนุน",
+      "usage": "To support or speak in favor of something.",
+      "synonyms": ["support", "champion", "promote"]
+    },
+    {
+      "word": "challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "pos": "noun",
+      "thai": "ความท้าทาย",
+      "usage": "A difficult task or problem.",
+      "synonyms": ["difficulty", "obstacle", "trial"]
+    },
+    {
+      "word": "component",
+      "ipa": "/kəmˈpoʊnənt/",
+      "pos": "noun",
+      "thai": "ส่วนประกอบ",
+      "usage": "A part or element of something larger.",
+      "synonyms": ["part", "element", "constituent"]
+    },
+    {
+      "word": "analysis",
+      "ipa": "/əˈnæləsɪs/",
+      "pos": "noun",
+      "thai": "การวิเคราะห์",
+      "usage": "Detailed examination of something.",
+      "synonyms": ["examination", "study", "scrutiny"]
+    },
+    {
+      "word": "constructive",
+      "ipa": "/kənˈstrʌktɪv/",
+      "pos": "adjective",
+      "thai": "ที่สร้างสรรค์",
+      "usage": "Serving a useful purpose; positive.",
+      "synonyms": ["helpful", "positive", "useful"]
+    },
+    {
+      "word": "destructive",
+      "ipa": "/dɪˈstrʌktɪv/",
+      "pos": "adjective",
+      "thai": "ที่ทำลายล้าง",
+      "usage": "Causing great damage or harm.",
+      "synonyms": ["damaging", "harmful", "ruinous"]
+    },
+    {
+      "word": "allocate",
+      "ipa": "/ˈæləkˌeɪt/",
+      "pos": "verb",
+      "thai": "จัดสรร",
+      "usage": "To distribute or assign resources.",
+      "synonyms": ["assign", "allot", "distribute"]
+    },
+    {
+      "word": "appreciate",
+      "ipa": "/əˈpriʃ.i.eɪt/",
+      "pos": "verb",
+      "thai": "ชื่นชม",
+      "usage": "To recognize the value of something.",
+      "synonyms": ["value", "admire", "cherish"]
+    },
+    {
+      "word": "category",
+      "ipa": "/ˈkætəˌɡɔri/",
+      "pos": "noun",
+      "thai": "หมวดหมู่",
+      "usage": "A group of things with something in common.",
+      "synonyms": ["class", "group", "type"]
+    },
+    {
+      "word": "conclusive",
+      "ipa": "/kənˈkluːsɪv/",
+      "pos": "adjective",
+      "thai": "เด็ดขาด",
+      "usage": "Serving to end doubt; decisive.",
+      "synonyms": ["decisive", "definitive", "convincing"]
+    },
+    {
+      "word": "demonstrate",
+      "ipa": "/ˈdɛmənˌstreɪt/",
+      "pos": "verb",
+      "thai": "สาธิต",
+      "usage": "To show clearly how something is done.",
+      "synonyms": ["show", "exhibit", "prove"]
+    },
+    {
+      "word": "interpret",
+      "ipa": "/ɪnˈtɜrprət/",
+      "pos": "verb",
+      "thai": "ตีความ",
+      "usage": "To explain the meaning of something.",
+      "synonyms": ["explain", "decipher", "translate"]
+    },
+    {
+      "word": "precede",
+      "ipa": "/prɪˈsid/",
+      "pos": "verb",
+      "thai": "มาก่อน",
+      "usage": "To come before something in time or order.",
+      "synonyms": ["lead", "come before", "anticipate"]
+    },
+    {
+      "word": "relevant",
+      "ipa": "/ˈrɛləvənt/",
+      "pos": "adjective",
+      "thai": "เกี่ยวข้อง",
+      "usage": "Closely connected to the matter at hand.",
+      "synonyms": ["pertinent", "applicable", "related"]
+    },
+    {
+      "word": "utilize",
+      "ipa": "/ˈjuːtələˌaɪz/",
+      "pos": "verb",
+      "thai": "ใช้",
+      "usage": "To make use of something.",
+      "synonyms": ["use", "employ", "apply"]
+    },
+    {
+      "word": "beneficial",
+      "ipa": "/ˌbɛnəˈfɪʃəl/",
+      "pos": "adjective",
+      "thai": "เป็นประโยชน์",
+      "usage": "Producing good results; helpful.",
+      "synonyms": ["advantageous", "helpful", "profitable"]
+    },
+    {
+      "word": "detrimental",
+      "ipa": "/ˌdɛtrɪˈmɛntəl/",
+      "pos": "adjective",
+      "thai": "เป็นอันตราย",
+      "usage": "Causing harm or damage.",
+      "synonyms": ["harmful", "damaging", "adverse"]
+    },
+    {
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "pos": "adjective",
+      "thai": "กำกวม",
+      "usage": "Open to more than one interpretation; unclear.",
+      "synonyms": ["unclear", "vague", "ambivalent"]
+    },
+    {
+      "word": "convenient",
+      "ipa": "/kənˈviːniənt/",
+      "pos": "adjective",
+      "thai": "สะดวก",
+      "usage": "Easy to use; fitting well into a situation.",
+      "synonyms": ["handy", "suitable", "easy"]
+    },
+    {
+      "word": "consecutive",
+      "ipa": "/kənˈsɛkjətɪv/",
+      "pos": "adjective",
+      "thai": "ต่อเนื่อง",
+      "usage": "Following continuously in sequence.",
+      "synonyms": ["successive", "continuous", "sequential"]
+    },
+    {
+      "word": "crucial",
+      "ipa": "/ˈkruːʃəl/",
+      "pos": "adjective",
+      "thai": "สำคัญ",
+      "usage": "Extremely important.",
+      "synonyms": ["critical", "vital", "essential"]
+    },
+    {
+      "word": "flexible",
+      "ipa": "/ˈflɛksəbəl/",
+      "pos": "adjective",
+      "thai": "ยืดหยุ่น",
+      "usage": "Capable of bending or changing easily.",
+      "synonyms": ["adaptable", "versatile", "pliant"]
+    },
+    {
+      "word": "global",
+      "ipa": "/ˈɡloʊbəl/",
+      "pos": "adjective",
+      "thai": "ทั่วโลก",
+      "usage": "Relating to the whole world.",
+      "synonyms": ["worldwide", "international", "universal"]
+    },
+    {
+      "word": "ideal",
+      "ipa": "/aɪˈdiːəl/",
+      "pos": "adjective",
+      "thai": "อุดมคติ",
+      "usage": "Perfect or most suitable.",
+      "synonyms": ["perfect", "optimal", "exemplary"]
+    },
+    {
+      "word": "ultimate",
+      "ipa": "/ˈʌltɪmət/",
+      "pos": "adjective",
+      "thai": "สูงสุด",
+      "usage": "Being the best or most extreme example of its kind.",
+      "synonyms": ["final", "eventual", "supreme"]
+    },
+    {
+      "word": "valid",
+      "ipa": "/ˈvælɪd/",
+      "pos": "adjective",
+      "thai": "ถูกต้อง",
+      "usage": "Well-founded on evidence or facts; reasonable.",
+      "synonyms": ["legitimate", "sound", "well-founded"]
+    },
+    {
+      "word": "random",
+      "ipa": "/ˈrændəm/",
+      "pos": "adjective",
+      "thai": "สุ่ม",
+      "usage": "Made, done, or chosen without method or conscious decision.",
+      "synonyms": ["haphazard", "arbitrary", "chance"]
+    },
+    {
+      "word": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "pos": "adjective",
+      "thai": "แม่นยำ",
+      "usage": "Exact; accurate in every detail.",
+      "synonyms": ["exact", "accurate", "specific"]
+    },
+    {
+      "word": "capacity",
+      "ipa": "/kəˈpæsɪti/",
+      "pos": "noun",
+      "thai": "ความจุ",
+      "usage": "The ability to hold or contain something.",
+      "synonyms": ["ability", "capability", "volume"]
+    },
+    {
+      "word": "emphasize",
+      "ipa": "/ˈɛmfəˌsaɪz/",
+      "pos": "verb",
+      "thai": "เน้น",
+      "usage": "To give special importance to something.",
+      "synonyms": ["stress", "highlight", "underline"]
+    },
+    {
+      "word": "illustrate",
+      "ipa": "/ˈɪləˌstreɪt/",
+      "pos": "verb",
+      "thai": "อธิบาย",
+      "usage": "To explain with examples or pictures.",
+      "synonyms": ["demonstrate", "show", "depict"]
+    },
+    {
+      "word": "justification",
+      "ipa": "/ˌdʒʌstɪfɪˈkeɪʃən/",
+      "pos": "noun",
+      "thai": "เหตุผล",
+      "usage": "A reason or explanation for an action.",
+      "synonyms": ["reason", "explanation", "rationale"]
+    },
+    {
+      "word": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "pos": "verb",
+      "thai": "รักษา",
+      "usage": "To keep in good condition; continue without change.",
+      "synonyms": ["continue", "preserve", "uphold"]
+    },
+    {
+      "word": "objective",
+      "ipa": "/əbˈdʒɛktɪv/",
+      "pos": "noun",
+      "thai": "วัตถุประสงค์",
+      "usage": "A goal or aim.",
+      "synonyms": ["goal", "aim", "purpose"]
+    },
+    {
+      "word": "perspective",
+      "ipa": "/pərˈspɛktɪv/",
+      "pos": "noun",
+      "thai": "มุมมอง",
+      "usage": "A particular attitude or way of regarding something.",
+      "synonyms": ["viewpoint", "outlook", "standpoint"]
+    },
+    {
+      "word": "outcome",
+      "ipa": "/ˈaʊtˌkʌm/",
+      "pos": "noun",
+      "thai": "ผลลัพธ์",
+      "usage": "The result or effect of an action.",
+      "synonyms": ["result", "consequence", "effect"]
+    },
+    {
+      "word": "trend",
+      "ipa": "/trɛnd/",
+      "pos": "noun",
+      "thai": "แนวโน้ม",
+      "usage": "A general direction in which something is developing or changing.",
+      "synonyms": ["tendency", "direction", "drift"]
+    },
+    {
+      "word": "consequence",
+      "ipa": "/ˈkɒnsəkwɛns/",
+      "pos": "noun",
+      "thai": "ผลกระทบ",
+      "usage": "A result or effect of an action.",
+      "synonyms": ["result", "effect", "outcome"]
+    },
+    {
+      "word": "contribute",
+      "ipa": "/kənˈtrɪbjut/",
+      "pos": "verb",
+      "thai": "มีส่วนร่วม",
+      "usage": "To give or add something for a common purpose.",
+      "synonyms": ["give", "provide", "add"]
+    },
+    {
+      "word": "collaborate",
+      "ipa": "/kəˈlæbəˌreɪt/",
+      "pos": "verb",
+      "thai": "ร่วมมือ",
+      "usage": "To work together on something.",
+      "synonyms": ["cooperate", "team up", "partner"]
+    },
+    {
+      "word": "justify",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "pos": "verb",
+      "thai": "พิสูจน์",
+      "usage": "To show or prove to be right or reasonable.",
+      "synonyms": ["explain", "defend", "validate"]
+    },
+    {
+      "word": "conclude",
+      "ipa": "/kənˈklud/",
+      "pos": "verb",
+      "thai": "สรุป",
+      "usage": "To finish or bring something to an end.",
+      "synonyms": ["finish", "end", "complete"]
+    },
+    {
+      "word": "participate",
+      "ipa": "/pɑrˈtɪsəˌpeɪt/",
+      "pos": "verb",
+      "thai": "เข้าร่วม",
+      "usage": "To take part in something.",
+      "synonyms": ["engage", "take part", "join"]
+    },
+    {
+      "word": "explicit",
+      "ipa": "/ɪkˈsplɪsɪt/",
+      "pos": "adjective",
+      "thai": "ชัดเจน",
+      "usage": "Stated clearly and in detail; obvious.",
+      "synonyms": ["clear", "direct", "straightforward"]
+    },
+    {
+      "word": "inevitable",
+      "ipa": "/ˌɪnɪˈvɛtəbl/",
+      "pos": "adjective",
+      "thai": "หลีกเลี่ยงไม่ได้",
+      "usage": "Certain to happen; unavoidable.",
+      "synonyms": ["unavoidable", "certain", "inevitable"]
+    },
+    {
+      "word": "maximize",
+      "ipa": "/ˈmæksəˌmaɪz/",
+      "pos": "verb",
+      "thai": "เพิ่มให้มากที่สุด",
+      "usage": "To increase to the greatest possible amount.",
+      "synonyms": ["increase", "boost", "enlarge"]
+    },
+    {
+      "word": "minimize",
+      "ipa": "/ˈmɪnəˌmaɪz/",
+      "pos": "verb",
+      "thai": "ลดให้เหลือน้อยที่สุด",
+      "usage": "To reduce to the smallest possible amount.",
+      "synonyms": ["reduce", "diminish", "lessen"]
+    },
+    {
+      "word": "consensus",
+      "ipa": "/kənˈsɛnsəs/",
+      "pos": "noun",
+      "thai": "ฉันทามติ",
+      "usage": "General agreement among a group of people.",
+      "synonyms": ["agreement", "harmony", "accord"]
+    },
+    {
+      "word": "stimulus",
+      "ipa": "/ˈstɪmjələs/",
+      "pos": "noun",
+      "thai": "สิ่งกระตุ้น",
+      "usage": "Something that incites to action or increased activity.",
+      "synonyms": ["incentive", "encouragement", "prompt"]
+    },
+    {
+      "word": "fundamental",
+      "ipa": "/ˌfʌndəˈmɛntl/",
+      "pos": "adjective",
+      "thai": "พื้นฐาน",
+      "usage": "Forming a necessary base or core; essential.",
+      "synonyms": ["basic", "essential", "primary"]
+    },
+    {
+      "word": "negotiate",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "pos": "verb",
+      "thai": "เจรจาต่อรอง",
+      "usage": "To try to reach an agreement by discussion.",
+      "synonyms": ["bargain", "discuss", "mediate"]
+    },
+    {
+      "word": "opportunity",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "pos": "noun",
+      "thai": "โอกาส",
+      "usage": "A set of circumstances that makes it possible to do something.",
+      "synonyms": ["chance", "possibility", "prospect"]
+    },
+    {
+      "word": "ubiquitous",
+      "ipa": "/juːˈbɪkwɪtəs/",
+      "pos": "adjective",
+      "thai": "แพร่หลาย",
+      "usage": "Present, appearing, or found everywhere.",
+      "synonyms": ["omnipresent", "widespread", "pervasive"]
+    },
+    {
+      "word": "ameliorate",
+      "ipa": "/əˈmiːliəreɪt/",
+      "pos": "verb",
+      "thai": "ผดุง",
+      "usage": "To make something bad or unsatisfactory better.",
+      "synonyms": ["improve", "alleviate", "mitigate"]
+    },
+    {
+      "word": "esoteric",
+      "ipa": "/ˌiːsəˈtɛrɪk/",
+      "pos": "adjective",
+      "thai": "ลึกซึ้ง",
+      "usage": "Intended for or likely to be understood by only a small number of people.",
+      "synonyms": ["obscure", "arcane", "abstruse"]
+    },
+    {
+      "word": "meticulous",
+      "ipa": "/məˈtɪkjʊləs/",
+      "pos": "adjective",
+      "thai": "พิถีพิถัน",
+      "usage": "Showing great attention to detail; very careful and precise.",
+      "synonyms": ["careful", "precise", "thorough"]
+    },
+    {
+      "word": "paradigm",
+      "ipa": "/ˈpærədaɪm/",
+      "pos": "noun",
+      "thai": "กรอบความคิด",
+      "usage": "A typical example or pattern of something; a model.",
+      "synonyms": ["model", "pattern", "example"]
+    },
+    {
+      "word": "obfuscate",
+      "ipa": "/ˈɒbfəskeɪt/",
+      "pos": "verb",
+      "thai": "ทำให้สับสน",
+      "usage": "To make something obscure, unclear, or unintelligible.",
+      "synonyms": ["confuse", "bewilder", "cloud"]
+    }
+  ]
+}

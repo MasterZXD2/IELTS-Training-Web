@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Session End</title>
+<link rel="stylesheet" type="text/css" href="endStyle.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="box">
+    <h2>Session Complete!</h2>
+    <p>What would you like to do next?</p>
+
+    <button class="same" onclick="sameSet()">Review Same Words</button>
+    <button class="new" onclick="newSet()">New Random Set</button>
+    <button class="menu" onclick="menu()">Return to Main Menu</button>
+</div>
+
+<script>
+function sameSet() {
+    window.location.href = "cards.html";
+}
+
+function newSet() {
+    localStorage.removeItem("sessionWords");
+    window.location.href = "main.html";
+}
+
+function menu() {
+    window.location.href = "main.html";
+}
+</script>
+
+</body>
+</html>

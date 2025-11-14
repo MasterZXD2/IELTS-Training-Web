@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IELTS Vocabulary – Flashcards</title>
+    <link rel="stylesheet" type="text/css" href="cardStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div>
+        <div id="counter"></div>
+        <div id="progressContainer"><div id="progressBar"></div></div>
+
+        <div class="card-container">
+            <div class="card" id="flashcard">
+                <div class="side front" id="front"></div>
+                <div class="side back" id="back"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="nextBtn" onclick="nextCard()" style="display:none;">Next</button>
+        </div>
+    </div>
+    <script src="cards.js"></script>
+</body>
+
+</html>
