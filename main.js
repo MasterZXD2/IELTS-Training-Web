@@ -48,3 +48,34 @@ function shuffle(array) {
     }
     return a;
 }
+
+const historySidebar = document.getElementById("historySidebar");
+const historyList = document.getElementById("historyList");
+
+// Open sidebar
+function openHistory() {
+    updateHistoryList();
+    historySidebar.style.width = "300px";
+}
+
+// Close sidebar
+function closeHistory() {
+    historySidebar.style.width = "0";
+}
+
+// Update history list from localStorage
+function updateHistoryList() {
+    const history = JSON.parse(localStorage.getItem("wordHistory")) || {};
+    historyList.innerHTML = "";
+
+    if (Object.keys(history).length === 0) {
+        historyList.innerHTML = "<li>No words encountered yet.</li>";
+        return;
+    }
+
+    for (const [word, count] of Object.entries(history)) {
+        const li = document.createElement("li");
+        li.innerText = `${word} — ${count} time${count>1?'s':''}`;
+        historyList.appendChild(li);
+    }
+}

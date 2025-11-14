@@ -8,6 +8,16 @@ const counter = document.getElementById("counter");
 const nextBtn = document.getElementById("nextBtn");
 const progressBar = document.getElementById("progressBar");
 
+function addWordToHistory(word) {
+    const history = JSON.parse(localStorage.getItem("wordHistory")) || {};
+    if (history[word]) {
+        history[word]++;
+    } else {
+        history[word] = 1;
+    }
+    localStorage.setItem("wordHistory", JSON.stringify(history));
+}
+
 function loadCard() {
     if (index >= words.length) {
         startQuiz();
@@ -15,6 +25,8 @@ function loadCard() {
     }
 
     const w = words[index];
+
+    addWordToHistory(w.word);
 
     counter.innerText = `Word ${index + 1} / ${words.length}`;
     progressBar.style.width = ((index) / words.length * 100) + "%";

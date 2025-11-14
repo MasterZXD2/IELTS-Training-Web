@@ -1,54 +1,111 @@
 body {
-        font-family: Arial;
-        background: #f7f7f7;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
+    font-family: Arial;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-    .container {
-        background: white;
-        padding: 30px;
-        border-radius: 10px;
-        width: 350px;
-        text-align: center;
-        box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-    }
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
 
-    input {
-        width: 80%;
-        padding: 10px;
-        margin-top: 15px;
-        font-size: 15px;
-        border-radius: 6px;
-        border: 1px solid #ccc;
-    }
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
 
-    button {
-        margin-top: 20px;
-        padding: 12px 20px;
-        width: 100%;
-        background: #2196F3;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-    }
+.header button {
+    background: #fff;
+    color: #2196F3;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
-    button:hover {
-        background: #1976D2;
-    }
+.header button:hover {
+    background: #f0f0f0;
+}
 
-    .error {
-        margin-top: 10px;
-        color: red;
-        display: none;
-    }
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
-    .welcome {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
+button:hover {
+    background: #1976D2;
+}
+
+.error {
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+.welcome {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#historySidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f7f7f7;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    transition: 0.3s;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+#historySidebar h2 {
+    margin-top: 0;
+}
+
+#historySidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#historySidebar li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#closeHistoryBtn {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#closeHistoryBtn:hover {
+    background: #1976D2;
+}
