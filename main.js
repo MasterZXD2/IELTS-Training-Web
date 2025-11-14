@@ -1,6 +1,14 @@
 // Load username from login
 const username = localStorage.getItem("currentUser");
 
+let vocabularyData;
+
+fetch('vocab.json')
+    .then(response => response.json())
+    .then(data => {
+        vocabularyData= data.words;
+    });
+
 document.getElementById("welcomeText").innerText =
     "Welcome, " + username;
 
@@ -68,11 +76,24 @@ function updateHistoryList() {
     const history = JSON.parse(localStorage.getItem("wordHistory")) || {};
     historyList.innerHTML = "";
 
-    if (Object.keys(history).length === 0) {
-        historyList.innerHTML = "<li>No words encountered yet.</li>";
+    // Summary at the top
+    const totalWords = vocabularyData.length;
+    const foundWords = Object.keys(history).length;
+
+    const summary = document.createElement("li");
+    summary.innerHTML = `<b>You have encountered ${foundWords} out of ${totalWords} words.</b>`;
+    summary.style.borderBottom = "2px solid #2196F3";
+    summary.style.marginBottom = "10px";
+    historyList.appendChild(summary);
+
+    if (foundWords === 0) {
+        const li = document.createElement("li");
+        li.innerText = "No words encountered yet.";
+        historyList.appendChild(li);
         return;
     }
 
+    // List each word with count
     for (const [word, count] of Object.entries(history)) {
         const li = document.createElement("li");
         li.innerText = `${word} — ${count} time${count>1?'s':''}`;

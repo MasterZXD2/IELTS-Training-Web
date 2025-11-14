@@ -9,7 +9,7 @@ fetch("users.json")
     .catch(err => {
         console.error("Error loading users.json:", err);
     });
-
+    
 function login() {
     const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value;
