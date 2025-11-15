@@ -109,3 +109,45 @@ button:hover {
 #closeHistoryBtn:hover {
     background: #1976D2;
 }
+
+/* Popup Styles */
+#wordInfoPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    display: none;
+    z-index: 2000;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+#wordInfoContent {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#closeInfoBtn {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#closeInfoBtn:hover {
+    background: #1976D2;
+}
+
+.historyWord {
+    color: #2196F3;
+    font-weight: bold;
+}
+.historyWord:hover {
+    text-decoration: underline;
+}
+

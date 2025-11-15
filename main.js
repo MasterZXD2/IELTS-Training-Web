@@ -94,9 +94,38 @@ function updateHistoryList() {
     }
 
     // List each word with count
-    for (const [word, count] of Object.entries(history)) {
-        const li = document.createElement("li");
-        li.innerText = `${word} — ${count} time${count>1?'s':''}`;
-        historyList.appendChild(li);
-    }
+for (const [word, count] of Object.entries(history)) {
+    const li = document.createElement("li");
+    li.innerHTML = `<span class="historyWord">${word}</span> — ${count} time${count>1?'s':''}`;
+    li.style.cursor = "pointer";
+
+    // When clicked → show popup
+    li.onclick = () => showWordInfo(word);
+
+    historyList.appendChild(li);
+}
+
+}
+
+// Show detailed vocab popup
+function showWordInfo(word) {
+    const vocab = vocabularyData.find(v => v.word === word);
+    if (!vocab) return;
+
+    const box = document.getElementById("wordInfoContent");
+
+    box.innerHTML = `
+        <h3>${vocab.word}</h3>
+        <p><b>IPA:</b> ${vocab.ipa}</p>
+        <p><b>Part of Speech:</b> ${vocab.pos}</p>
+        <p><b>Meaning (TH):</b> ${vocab.thai}</p>
+        <p><b>Usage:</b> ${vocab.usage}</p>
+        <p><b>Synonyms:</b> ${vocab.synonyms?.join(", ") || "-"}</p>
+    `;
+
+    document.getElementById("wordInfoPopup").style.display = "block";
+}
+
+function closeWordInfo() {
+    document.getElementById("wordInfoPopup").style.display = "none";
 }
