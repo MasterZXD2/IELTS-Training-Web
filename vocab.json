@@ -74,7 +74,7 @@
     },
     {
       "word": "assume",
-      "ipa": "/əsˈum/",
+      "ipa": "/əˈsum/",
       "pos": "verb",
       "thai": "สมมติ",
       "usage": "To accept something as true without proof.",
@@ -90,7 +90,7 @@
     },
     {
       "word": "concept",
-      "ipa": "/kˈɑnsɛpt/",
+      "ipa": "/ˈkɒn.sɛpt/",
       "pos": "noun",
       "thai": "แนวคิด",
       "usage": "An abstract idea or general notion.",
@@ -98,7 +98,7 @@
     },
     {
       "word": "context",
-      "ipa": "/ˈkɑnˌtɛkst/",
+      "ipa": "/ˈkɒn.tekst/",
       "pos": "noun",
       "thai": "บริบท",
       "usage": "The situation in which something happens.",
@@ -862,7 +862,7 @@
       "pos": "adjective",
       "thai": "หลีกเลี่ยงไม่ได้",
       "usage": "Certain to happen; unavoidable.",
-      "synonyms": ["unavoidable", "certain", "inevitable"]
+      "synonyms": ["unavoidable", "certain", "inescapable"]
     },
     {
       "word": "maximize",
@@ -967,6 +967,487 @@
       "thai": "ทำให้สับสน",
       "usage": "To make something obscure, unclear, or unintelligible.",
       "synonyms": ["confuse", "bewilder", "cloud"]
+    },
+    {
+      "word": "scrutinize",
+      "ipa": "/ˈskruːtəˌnaɪz/",
+      "pos": "verb",
+      "thai": "ตรวจสอบอย่างละเอียด",
+      "usage": "To examine something very carefully and in detail.",
+      "synonyms": ["examine closely", "inspect", "analyze"]
+    },
+    {
+      "word": "substantiate",
+      "ipa": "/səbˈstænʃieɪt/",
+      "pos": "verb",
+      "thai": "พิสูจน์ด้วยหลักฐาน",
+      "usage": "To provide evidence to support or prove the truth of something.",
+      "synonyms": ["prove", "validate", "corroborate"]
+    },
+    {
+      "word": "facilitate",
+      "ipa": "/fəˈsɪlɪˌteɪt/",
+      "pos": "verb",
+      "thai": "อำนวยความสะดวก",
+      "usage": "To make an action or process easier.",
+      "synonyms": ["ease", "assist", "enable"]
+    },
+    {
+      "word": "elicit",
+      "ipa": "/ɪˈlɪsɪt/",
+      "pos": "verb",
+      "thai": "กระตุ้นให้เกิด",
+      "usage": "To draw out a response, answer, or fact from someone.",
+      "synonyms": ["evoke", "bring out", "prompt"]
+    },
+    {
+      "word": "inhibit",
+      "ipa": "/ɪnˈhɪbɪt/",
+      "pos": "verb",
+      "thai": "ยับยั้ง",
+      "usage": "To hinder, restrain, or prevent an action or process.",
+      "synonyms": ["hinder", "restrain", "impede"]
+    },
+    {
+      "word": "paradox",
+      "ipa": "/ˈpærəˌdɒks/",
+      "pos": "noun",
+      "thai": "ความขัดแย้งในตัว",
+      "usage": "A statement or situation that seems contradictory but may be true.",
+      "synonyms": ["contradiction", "enigma", "inconsistency"]
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθəsɪs/",
+      "pos": "noun",
+      "thai": "สมมติฐาน",
+      "usage": "A proposed explanation made on the basis of limited evidence.",
+      "synonyms": ["theory", "proposition", "supposition"]
+    },
+    {
+      "word": "implication",
+      "ipa": "/ˌɪmplɪˈkeɪʃən/",
+      "pos": "noun",
+      "thai": "นัย",
+      "usage": "A possible effect or result; a conclusion that can be drawn indirectly.",
+      "synonyms": ["consequence", "suggestion", "inference"]
+    },
+    {
+      "word": "empirical",
+      "ipa": "/ɪmˈpɪrɪkəl/",
+      "pos": "adjective",
+      "thai": "เชิงประจักษ์",
+      "usage": "Based on observation or experience rather than theory.",
+      "synonyms": ["evidence-based", "observational", "experimental"]
+    },
+    {
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "pos": "adjective",
+      "thai": "สอดคล้องชัดเจน",
+      "usage": "Logical and consistent; easy to understand.",
+      "synonyms": ["logical", "consistent", "clear"]
+    },
+    {
+      "word": "plausible",
+      "ipa": "/ˈplɔːzəbəl/",
+      "pos": "adjective",
+      "thai": "น่าเชื่อถือ",
+      "usage": "Seeming reasonable or probable.",
+      "synonyms": ["credible", "believable", "likely"]
+    },
+    {
+      "word": "inherent",
+      "ipa": "/ɪnˈhɪrənt/",
+      "pos": "adjective",
+      "thai": "โดยเนื้อแท้",
+      "usage": "Existing as a natural and essential part of something.",
+      "synonyms": ["intrinsic", "innate", "fundamental"]
+    },
+    {
+      "word": "robust",
+      "ipa": "/roʊˈbʌst/",
+      "pos": "adjective",
+      "thai": "แข็งแกร่ง",
+      "usage": "Strong and effective in all or most situations.",
+      "synonyms": ["strong", "resilient", "sturdy"]
+    },
+    {
+      "word": "prevalent",
+      "ipa": "/ˈprɛvələnt/",
+      "pos": "adjective",
+      "thai": "แพร่หลาย",
+      "usage": "Widespread in a particular area or at a particular time.",
+      "synonyms": ["widespread", "common", "rampant"]
+    },
+    {
+      "word": "concurrently",
+      "ipa": "/kənˈkɜːrəntli/",
+      "pos": "adverb",
+      "thai": "พร้อมกัน",
+      "usage": "At the same time; simultaneously.",
+      "synonyms": ["simultaneously", "at once", "in parallel"]
+    },
+    {
+      "word": "adversely",
+      "ipa": "/ˈædvɜːrsli/",
+      "pos": "adverb",
+      "thai": "ในทางลบ",
+      "usage": "In a way that prevents success or development; harmfully.",
+      "synonyms": ["negatively", "unfavorably", "harmfully"]
+    },
+    {
+      "word": "salient",
+      "ipa": "/ˈseɪliənt/",
+      "pos": "adjective",
+      "thai": "เด่นชัด",
+      "usage": "Most noticeable or important.",
+      "synonyms": ["prominent", "notable", "conspicuous"]
+    },
+    {
+      "word": "prolific",
+      "ipa": "/prəˈlɪfɪk/",
+      "pos": "adjective",
+      "thai": "ที่สร้างผลงานมากมาย",
+      "usage": "Producing a great number or amount of something; highly productive.",
+      "synonyms": ["productive", "fruitful", "abundant"]
+    },
+    {
+      "word": "perfunctory",
+      "ipa": "/pərˈfʌŋktəri/",
+      "pos": "adjective",
+      "thai": "ที่ทำไปส่งๆ",
+      "usage": "Carried out with a minimum of effort or reflection; done hastily or superficially.",
+      "synonyms": ["cursory", "superficial", "hasty"]
+    },
+    {
+      "word": "arbitrary",
+      "ipa": "/ˈɑːrbɪtreri/",
+      "pos": "adjective",
+      "thai": "ตามอำเภอใจ",
+      "usage": "Based on random choice or personal whim, rather than any reason or system.",
+      "synonyms": ["random", "capricious", "whimsical"]
+    },
+    {
+      "word": "pragmatic",
+      "ipa": "/præɡˈmætɪk/",
+      "pos": "adjective",
+      "thai": "ที่เน้นการปฏิบัติ",
+      "usage": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+      "synonyms": ["practical", "realistic", "sensible"]
+    },
+    {
+      "word": "nuance",
+      "ipa": "/ˈnjuːɑːns/",
+      "pos": "noun",
+      "thai": "ความแตกต่างเล็กน้อย",
+      "usage": "A subtle difference in or shade of meaning, expression, or sound.",
+      "synonyms": ["subtlety", "distinction", "refinement"]
+    },
+    {
+      "word": "antithesis",
+      "ipa": "/ænˈtɪθəsɪs/",
+      "pos": "noun",
+      "thai": "ขั้วตรงข้าม",
+      "usage": "A person or thing that is the direct opposite of someone or something else.",
+      "synonyms": ["opposite", "converse", "contrast"]
+    },
+    {
+      "word": "proponent",
+      "ipa": "/prəˈpoʊnənt/",
+      "pos": "noun",
+      "thai": "ผู้สนับสนุน",
+      "usage": "A person who advocates a theory, proposal, or project.",
+      "synonyms": ["advocate", "supporter", "champion"]
+    },
+    {
+      "word": "efficacy",
+      "ipa": "/ˈɛfɪkəsi/",
+      "pos": "noun",
+      "thai": "ประสิทธิภาพ",
+      "usage": "The ability to produce a desired or intended result.",
+      "synonyms": ["effectiveness", "success", "potency"]
+    },
+    {
+      "word": "articulate",
+      "ipa": "/ɑːrˈtɪkjuleɪt/",
+      "pos": "verb",
+      "thai": "พูดอย่างชัดเจน",
+      "usage": "To express an idea or feeling fluently and coherently.",
+      "synonyms": ["enunciate", "express", "voice"]
+    },
+    {
+      "word": "corroborate",
+      "ipa": "/kəˈrɒbəreɪt/",
+      "pos": "verb",
+      "thai": "ยืนยัน",
+      "usage": "To confirm or give support to a statement, theory, or finding.",
+      "synonyms": ["confirm", "verify", "substantiate"]
+    },
+    {
+      "word": "equivocate",
+      "ipa": "/ɪˈkwɪvəkeɪt/",
+      "pos": "verb",
+      "thai": "พูดกำกวม",
+      "usage": "To use ambiguous language to conceal the truth or avoid committing oneself.",
+      "synonyms": ["be vague", "prevaricate", "hedge"]
+    },
+    {
+      "word": "intrinsically",
+      "ipa": "/ɪnˈtrɪnzɪkli/",
+      "pos": "adverb",
+      "thai": "โดยเนื้อแท้",
+      "usage": "In an essential or natural way; belonging naturally.",
+      "synonyms": ["essentially", "inherently", "fundamentally"]
+    },
+    {
+      "word": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "pos": "verb",
+      "thai": "บรรเทา",
+      "usage": "To make less severe, serious, or painful.",
+      "synonyms": ["alleviate", "reduce", "lessen"]
+    },
+    {
+      "word": "ostensible",
+      "ipa": "/ɒˈstɛnsəbəl/",
+      "pos": "adjective",
+      "thai": "ที่อ้างว่า",
+      "usage": "Stated or appearing to be true, but not necessarily so.",
+      "synonyms": ["apparent", "supposed", "superficial"]
+    },
+    {
+      "word": "exacerbate",
+      "ipa": "/ɪɡˈzæsərbeɪt/",
+      "pos": "verb",
+      "thai": "ทำให้แย่ลง",
+      "usage": "To make a problem, bad situation, or negative feeling worse.",
+      "synonyms": ["aggravate", "worsen", "intensify"]
+    },
+    {
+      "word": "tenuous",
+      "ipa": "/ˈtɛnjuəs/",
+      "pos": "adjective",
+      "thai": "เบาบาง",
+      "usage": "Very weak or slight; insubstantial.",
+      "synonyms": ["slight", "flimsy", "weak"]
+    },
+    {
+      "word": "superfluous",
+      "ipa": "/suːˈpɜːrfluəs/",
+      "pos": "adjective",
+      "thai": "มากเกินจำเป็น",
+      "usage": "Unnecessary, especially through being more than enough.",
+      "synonyms": ["surplus", "redundant", "unnecessary"]
+    },
+    {
+      "word": "delineate",
+      "ipa": "/dɪˈlɪnieɪt/",
+      "pos": "verb",
+      "thai": "อธิบาย",
+      "usage": "To describe or portray something precisely.",
+      "synonyms": ["describe", "outline", "define"]
+    },
+    {
+      "word": "precursor",
+      "ipa": "/prɪˈkɜːrsər/",
+      "pos": "noun",
+      "thai": "สิ่งบอกเหตุ",
+      "usage": "A person or thing that comes before another of the same kind; a forerunner.",
+      "synonyms": ["forerunner", "predecessor", "antecedent"]
+    },
+    {
+      "word": "viable",
+      "ipa": "/ˈvaɪəbəl/",
+      "pos": "adjective",
+      "thai": "ที่ใช้การได้",
+      "usage": "Capable of working successfully; feasible.",
+      "synonyms": ["feasible", "workable", "practical"]
+    },
+    {
+      "word": "lucid",
+      "ipa": "/ˈluːsɪd/",
+      "pos": "adjective",
+      "thai": "ชัดเจน",
+      "usage": "Expressed clearly; easy to understand.",
+      "synonyms": ["clear", "coherent", "intelligible"]
+    },
+    {
+      "word": "egregious",
+      "ipa": "/ɪˈɡriːdʒəs/",
+      "pos": "adjective",
+      "thai": "เลวร้ายมาก",
+      "usage": "Outstandingly bad; shocking.",
+      "synonyms": ["shocking", "appalling", "flagrant"]
+    },
+    {
+      "word": "rudimentary",
+      "ipa": "/ˌruːdɪˈmɛntəri/",
+      "pos": "adjective",
+      "thai": "ขั้นพื้นฐาน",
+      "usage": "Involving or limited to basic principles.",
+      "synonyms": ["basic", "elementary", "fundamental"]
+    },
+    {
+      "word": "conjecture",
+      "ipa": "/kənˈdʒɛktʃər/",
+      "pos": "noun",
+      "thai": "การคาดเดา",
+      "usage": "An opinion or conclusion formed on the basis of incomplete information.",
+      "synonyms": ["speculation", "guess", "hypothesis"]
+    },
+    {
+      "word": "imperative",
+      "ipa": "/ɪmˈpɛrətɪv/",
+      "pos": "adjective",
+      "thai": "จำเป็นอย่างยิ่ง",
+      "usage": "Of vital importance; crucial.",
+      "synonyms": ["crucial", "vital", "essential"]
+    },
+    {
+      "word": "tacit",
+      "ipa": "/ˈtæsɪt/",
+      "pos": "adjective",
+      "thai": "ที่เป็นนัย",
+      "usage": "Understood or implied without being stated.",
+      "synonyms": ["implicit", "unspoken", "implied"]
+    },
+    {
+      "word": "pervade",
+      "ipa": "/pərˈveɪd/",
+      "pos": "verb",
+      "thai": "แพร่หลาย",
+      "usage": "To spread through and be perceived in every part of.",
+      "synonyms": ["permeate", "spread through", "fill"]
+    }
+  ,
+    {
+      "word": "methodology",
+      "ipa": "/ˌmɛθəˈdɒlədʒi/",
+      "pos": "noun",
+      "thai": "ระเบียบวิธี",
+      "usage": "A system of methods used in a particular area of study or activity.",
+      "synonyms": ["approach", "procedure", "framework"]
+    },
+    {
+      "word": "phenomenon",
+      "ipa": "/fəˈnɒmɪnən/",
+      "pos": "noun",
+      "thai": "ปรากฏการณ์",
+      "usage": "A fact or situation that is observed to exist or happen, especially one whose cause is in question.",
+      "synonyms": ["occurrence", "event", "happening"]
+    },
+    {
+      "word": "discrepancy",
+      "ipa": "/dɪˈskrɛpənsi/",
+      "pos": "noun",
+      "thai": "ความคลาดเคลื่อน",
+      "usage": "A lack of compatibility or similarity between two or more facts.",
+      "synonyms": ["inconsistency", "difference", "variance"]
+    },
+    {
+      "word": "magnitude",
+      "ipa": "/ˈmæɡnɪˌtjuːd/",
+      "pos": "noun",
+      "thai": "ขนาด",
+      "usage": "The great size or extent of something; the importance or scale.",
+      "synonyms": ["size", "extent", "scale"]
+    },
+    {
+      "word": "spectrum",
+      "ipa": "/ˈspɛktrəm/",
+      "pos": "noun",
+      "thai": "ช่วง",
+      "usage": "A range or scope of related ideas, qualities, or activities.",
+      "synonyms": ["range", "scope", "array"]
+    },
+    {
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθɪsaɪz/",
+      "pos": "verb",
+      "thai": "สังเคราะห์",
+      "usage": "To combine different ideas, information, or elements to form a coherent whole.",
+      "synonyms": ["combine", "integrate", "merge"]
+    },
+    {
+      "word": "extrapolate",
+      "ipa": "/ɪkˈstræpəleɪt/",
+      "pos": "verb",
+      "thai": "คาดคะเน",
+      "usage": "To infer or estimate by extending or projecting known information.",
+      "synonyms": ["infer", "project", "estimate"]
+    },
+    {
+      "word": "underscore",
+      "ipa": "/ˌʌndərˈskɔːr/",
+      "pos": "verb",
+      "thai": "เน้นย้ำ",
+      "usage": "To emphasize the importance of something.",
+      "synonyms": ["emphasize", "highlight", "accentuate"]
+    },
+    {
+      "word": "differentiate",
+      "ipa": "/ˌdɪfəˈrɛnʃieɪt/",
+      "pos": "verb",
+      "thai": "จำแนกความแตกต่าง",
+      "usage": "To recognize or ascertain what makes something or someone different.",
+      "synonyms": ["distinguish", "discriminate", "separate"]
+    },
+    {
+      "word": "contextualize",
+      "ipa": "/kənˈtɛkstʃuəlaɪz/",
+      "pos": "verb",
+      "thai": "จัดให้อยู่ในบริบท",
+      "usage": "To place a word, event, or idea in a particular context.",
+      "synonyms": ["situate", "frame", "relate"]
+    },
+    {
+      "word": "cohesive",
+      "ipa": "/koʊˈhiːsɪv/",
+      "pos": "adjective",
+      "thai": "ที่เป็นเนื้อเดียวกัน",
+      "usage": "Characterized by or causing cohesion; forming a united whole.",
+      "synonyms": ["unified", "connected", "integrated"]
+    },
+    {
+      "word": "incongruous",
+      "ipa": "/ɪnˈkɒŋɡruəs/",
+      "pos": "adjective",
+      "thai": "ไม่เข้ากัน",
+      "usage": "Not in harmony or keeping with the surroundings or other aspects of something.",
+      "synonyms": ["inconsistent", "incompatible", "discordant"]
+    },
+    {
+      "word": "holistic",
+      "ipa": "/hoʊˈlɪstɪk/",
+      "pos": "adjective",
+      "thai": "โดยองค์รวม",
+      "usage": "Considering something as a whole rather than as a collection of parts.",
+      "synonyms": ["comprehensive", "integrated", "overall"]
+    },
+    {
+      "word": "substantive",
+      "ipa": "/səbˈstæn.tɪv/",
+      "pos": "adjective",
+      "thai": "ที่มีสาระสำคัญ",
+      "usage": "Having a firm basis in reality and therefore important, meaningful, or considerable.",
+      "synonyms": ["meaningful", "significant", "essential"]
+    },
+    {
+      "word": "predominantly",
+      "ipa": "/prɪˈdɒmɪnəntli/",
+      "pos": "adverb",
+      "thai": "โดยส่วนใหญ่",
+      "usage": "Mainly; for the most part.",
+      "synonyms": ["mainly", "primarily", "largely"]
+    },
+    {
+      "word": "consequently",
+      "ipa": "/ˈkɒnsɪkwəntli/",
+      "pos": "adverb",
+      "thai": "เป็นผลให้",
+      "usage": "As a result; therefore.",
+      "synonyms": ["therefore", "thus", "accordingly"]
     }
   ]
 }
