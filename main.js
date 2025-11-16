@@ -59,16 +59,31 @@ function shuffle(array) {
 
 const historySidebar = document.getElementById("historySidebar");
 const historyList = document.getElementById("historyList");
+const overlay = document.getElementById("overlay");
+let selectedHistoryWords = new Set();
 
 // Open sidebar
 function openHistory() {
     updateHistoryList();
-    historySidebar.style.width = "300px";
+    historySidebar.style.width = "540px";
+    if (overlay) {
+        overlay.style.display = "block";
+        // ensure transition
+        requestAnimationFrame(() => {
+            overlay.style.opacity = "1";
+        });
+    }
 }
 
 // Close sidebar
 function closeHistory() {
     historySidebar.style.width = "0";
+    if (overlay) {
+        overlay.style.opacity = "0";
+        setTimeout(() => {
+            overlay.style.display = "none";
+        }, 300);
+    }
 }
 
 // Update history list from localStorage
@@ -94,16 +109,32 @@ function updateHistoryList() {
     }
 
     // List each word with count
-for (const [word, count] of Object.entries(history)) {
-    const li = document.createElement("li");
-    li.innerHTML = `<span class="historyWord">${word}</span> — ${count} time${count>1?'s':''}`;
-    li.style.cursor = "pointer";
+    for (const [word, count] of Object.entries(history)) {
+        const li = document.createElement("li");
+        li.style.display = "flex";
+        li.style.alignItems = "center";
+        li.style.gap = "8px";
 
-    // When clicked → show popup
-    li.onclick = () => showWordInfo(word);
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = selectedHistoryWords.has(word);
+        checkbox.onchange = (e) => {
+            if (e.target.checked) {
+                selectedHistoryWords.add(word);
+            } else {
+                selectedHistoryWords.delete(word);
+            }
+        };
 
-    historyList.appendChild(li);
-}
+        const label = document.createElement("span");
+        label.className = "historyWord";
+        label.innerHTML = `<span style="text-decoration:underline; cursor:pointer;">${word}</span> — ${count} time${count>1?'s':''}`;
+        label.onclick = () => showWordInfo(word);
+
+        li.appendChild(checkbox);
+        li.appendChild(label);
+        historyList.appendChild(li);
+    }
 
 }
 
@@ -128,4 +159,33 @@ function showWordInfo(word) {
 
 function closeWordInfo() {
     document.getElementById("wordInfoPopup").style.display = "none";
+}
+
+// Multi-select history helpers
+function selectAllHistory() {
+    const history = JSON.parse(localStorage.getItem("wordHistory")) || {};
+    selectedHistoryWords = new Set(Object.keys(history));
+    updateHistoryList();
+}
+
+function clearHistorySelection() {
+    selectedHistoryWords.clear();
+    updateHistoryList();
+}
+
+function createCardSetFromHistory() {
+    if (!vocabularyData || vocabularyData.length === 0) return;
+    const selected = Array.from(selectedHistoryWords);
+    if (selected.length === 0) {
+        alert("Please select at least one word from history.");
+        return;
+    }
+    const wordSet = new Set(selected);
+    const selectedWords = vocabularyData.filter(v => wordSet.has(v.word));
+    if (selectedWords.length === 0) {
+        alert("Selected words were not found in the vocabulary list.");
+        return;
+    }
+    localStorage.setItem("sessionWords", JSON.stringify(selectedWords));
+    window.location.href = "cards.html";
 }

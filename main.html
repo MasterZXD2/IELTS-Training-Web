@@ -17,6 +17,8 @@
     <button onclick="openHistory()">History</button>
 </div>
 
+<div id="overlay" onclick="closeHistory()"></div>
+
 <!-- Word Info Popup -->
 <div id="wordInfoPopup">
     <div id="wordInfoContent"></div>
@@ -28,6 +30,11 @@
 <div id="historySidebar">
     <button id="closeHistoryBtn" onclick="closeHistory()">Close</button>
     <h2>Word History</h2>
+    <div id="historyControls" style="margin:10px 0;">
+        <button onclick="selectAllHistory()" style="margin-right:6px;">Select All</button>
+        <button onclick="clearHistorySelection()" style="margin-right:6px;">Clear</button>
+        <button onclick="createCardSetFromHistory()" style="background:#4CAF50; color:#fff;">Create Card Set</button>
+    </div>
     <ul id="historyList"></ul>
 </div>
 

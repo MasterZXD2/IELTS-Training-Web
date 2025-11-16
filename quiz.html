@@ -88,8 +88,16 @@ button:hover { background:#1976D2; }
 
     <div id="thaiWord" style="font-size:20px; margin:15px 0;"></div>
     <input type="text" id="answerInput" placeholder="Type English word here">
+    <select id="posSelect" style="width:84%; padding:10px; border-radius:5px; border:1px solid #ccc;">
+        <option value="">Select part of speech</option>
+        <option value="noun">noun</option>
+        <option value="verb">verb</option>
+        <option value="adjective">adjective</option>
+        <option value="adverb">adverb</option>
+    </select>
     <button id="submitBtn" onclick="submitAnswer()">Submit</button>
     <button id="nextBtn" onclick="nextQuestion()" style="display:none;">Next</button>
+    <button id="skipBtn" onclick="skipQuestion()" style="background:#9E9E9E; display:inline-block;">Skip</button>
 
     <div id="quizResult"></div>
     <button id="nextSessionBtn" onclick="goToSessionEnd()">Next Session</button>
