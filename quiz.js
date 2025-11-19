@@ -146,6 +146,45 @@ function showResults() {
     quizResult.style.display = "block";
 
     nextSessionBtn.style.display = "inline-block";
+
+    // Send data to Google Apps Script
+    sendQuizData();
+}
+
+function sendQuizData() {
+    // Get username from localStorage
+    const user = localStorage.getItem("currentUser") || "unknown";
+    
+    // Get current date in DD/MM/YYYY format
+    const now = new Date();
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const year = now.getFullYear();
+    const time = `${day}/${month}/${year}`;
+    
+    // Count words with no mistakes (correctionsWord === 0 and correctionsPos === 0, and not skipped)
+    const count = results.filter(r => 
+        !r.skipped && 
+        r.correctionsWord === 0 && 
+        (r.posCorrect === '-' || r.correctionsPos === 0)
+    ).length;
+    
+    // Prepare data as JSON (Google Apps Script expects JSON in e.postData.contents)
+    const data = {
+        user: user,
+        time: time,
+        count: count
+    };
+    
+    // Send to Google Apps Script as JSON
+    // Google Apps Script will read JSON from e.postData.contents
+    fetch('https://script.google.com/macros/s/AKfycbwo1M5ZfQhNoFCCt4k1KRfGRIKOaBuTb2_-3SnKy5ln3kALdi2etxgLWzT1xQpFHD4g-A/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        body: JSON.stringify(data)
+    }).catch(err => {
+        console.error('Error sending quiz data:', err);
+    });
 }
 
 function goToSessionEnd() {
