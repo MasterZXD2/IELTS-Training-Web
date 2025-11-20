@@ -1,0 +1,59 @@
+// Updated Google Apps Script - Fixed version
+// IMPORTANT: After updating, you must redeploy the web app for changes to take effect
+
+function doGet(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const user = e.parameter.user;
+
+  let result;
+  
+  if (!user) {
+    result = {
+      status: "error",
+      message: "Missing parameter: user"
+    };
+  } else {
+    const data = sheet.getDataRange().getValues();
+    let found = false;
+    
+    // Fixed: Changed i > 1 to i >= 1 to check all rows including row 1
+    for (let i = data.length - 1; i >= 1; i--) {
+      if (String(data[i][0]) === String(user)) {
+        result = {
+          status: "success",
+          row: i + 1,
+          data: data[i]
+        };
+        found = true;
+        break;
+      }
+    }
+    
+    if (!found) {
+      result = {
+        status: "not_found",
+        message: "User not found"
+      };
+    }
+  }
+
+  // Return JSON with proper MIME type
+  // Note: CORS headers are handled automatically by Google Apps Script
+  // when deployed as a web app with "Execute as me" and "Who has access: Anyone"
+  return ContentService.createTextOutput(JSON.stringify(result))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+// INSTRUCTIONS TO FIX CORS:
+// 1. Go to your Google Apps Script project
+// 2. Click "Deploy" > "New deployment"
+// 3. Select type: "Web app"
+// 4. Set:
+//    - Execute as: "Me"
+//    - Who has access: "Anyone" (or "Anyone with Google account")
+// 5. Click "Deploy"
+// 6. Copy the new deployment URL and update it in main.js
+//
+// If CORS still doesn't work, the frontend code will handle it gracefully
+// and the app will continue to work without the user data.
+

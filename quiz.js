@@ -175,16 +175,42 @@ function sendQuizData() {
         time: time,
         count: count
     };
-    
+
     // Send to Google Apps Script as JSON
     // Google Apps Script will read JSON from e.postData.contents
-    fetch('https://script.google.com/macros/s/AKfycbwo1M5ZfQhNoFCCt4k1KRfGRIKOaBuTb2_-3SnKy5ln3kALdi2etxgLWzT1xQpFHD4g-A/exec', {
+    fetch('https://script.google.com/macros/s/AKfycby9dKU7OLvykOX61gnFy3-bFA9-3t9bYOqIsz_JiNI8RvzYV11MOzhlPQaktcdQWN5EiQ/exec', {
         method: 'POST',
         mode: 'no-cors',
         body: JSON.stringify(data)
     }).catch(err => {
         console.error('Error sending quiz data:', err);
     });
+    
+    // Update weekly quest progress
+    // Check if addWeeklyProgress function exists (from main.js)
+    if (typeof addWeeklyProgress === 'function') {
+        addWeeklyProgress(count);
+    } else {
+        // If function doesn't exist (e.g., if quiz.js is loaded independently),
+        // update progress directly
+        updateWeeklyProgressDirectly(user, time, count);
+    }
+}
+
+// Fallback function to update weekly progress if addWeeklyProgress is not available
+function updateWeeklyProgressDirectly(username, date, count) {
+    const progressKey = `weeklyProgress_${username}`;
+    const storedProgress = JSON.parse(localStorage.getItem(progressKey) || '[]');
+    
+    // Check if entry for this date exists
+    const dateEntry = storedProgress.find(e => e.date === date);
+    if (dateEntry) {
+        dateEntry.count = (parseInt(dateEntry.count) || 0) + count;
+    } else {
+        storedProgress.push({ date: date, count: count });
+    }
+    
+    localStorage.setItem(progressKey, JSON.stringify(storedProgress));
 }
 
 function goToSessionEnd() {
